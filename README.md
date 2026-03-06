@@ -132,7 +132,3 @@ http://localhost:3000
 | DELETE | /api/products/{id} | Delete product |
 
 ---
-
-## Author
-
-Simple project created using **Laravel and React.js**.
