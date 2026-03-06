@@ -22,7 +22,7 @@ class ProductController extends Controller
         $product = Product::findOrFail($id);
         $product->update($request->all());
 
-        return $product;
+        return response()->json($product);
     }
 
     public function destroy($id)
